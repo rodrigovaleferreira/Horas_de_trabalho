@@ -1,0 +1,44 @@
+:root{
+    --cor-de-fundo: #7FFFD4;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    width: 50%;
+    padding-top: 20px;
+    margin-left: 35px;
+}
+
+.hr_final{
+
+    margin-top: 10px;
+}
+
+
+.form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+  h1{
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.button{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(231, 87, 87);
+}
