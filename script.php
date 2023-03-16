@@ -37,14 +37,13 @@ if ($tempoTrabalhado <= 1440) {
   // Exibe os totalizadores de horas diurnas e noturnas
   $horasDiurnas = round($horasDiurnas * 60);
   $horasNoturnas = round($horasNoturnas * 60);
-  echo "Horas diurnas: " . intval($horasDiurnas / 60) . ":" . sprintf("%02d", ($horasDiurnas % 60)) . "<br>";
+  echo "Horas diurnas: " . intval($horasDiurnas / 60) . ":" . sprintf("%02d", ($horasDiurnas % 60)). "<br>";
   echo "Horas noturnas: " . intval($horasNoturnas / 60) . ":" . sprintf("%02d", ($horasNoturnas % 60)) . "<br>"; 
 
 } else {
   // Caso o período informado seja superior a 24 horas, exibe uma mensagem de erro
   echo "A duração do período deve ser inferior a 24 horas.";
 }
-
 
 
 
