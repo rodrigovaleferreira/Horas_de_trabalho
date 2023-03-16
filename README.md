@@ -1,22 +1,31 @@
-<h1>Como Rodar o programa: Horas_de_trabalho</h1>
+<h1 align="center">:alarm_clock: Horas de trabalho :alarm_clock:</h1>
 
-* <h2>Utilizando o VisualStudio Code:</h2>
-<p> Será necessário a instalação do XAMPP para fazer a utilização do apache e conseguir trabalhar com o documento PHP, segue abaixo o link do site da XAMPP: </p>
-<p> https://www.apachefriends.org/pt_br/index.html </p>
+* <h2>:books:Descrição do projeto</h2>
+* <p> O projeto tem como objetivo calcular quantas horas uma pessoa teve de trabalho diurno e noturno de acordo com a lesgilação trabalhista brasileira.</p>
 
-* <h4>Após instalar o XAMPP:</h4>
-<p> Após esse processo, você ira localizar onde a pasta do programa foi instalada, dentro dela terá uma pasta chamada "htdocs" que vai ser onde você criará o arquivo que será programado.</p>
+* <h2>:scroll:Funcionamento do projeto:</h2>
+* <p>O programa recebera dois horários fornecidos pelo usuário e retornará por forma de texto quantas horas diurnas e noturnas a pessoa teve no dia, caso os horários fornecidos pelo usuário ultrapassem de 24h irá aparecer um aviso de proibição na tela. </p>
+
+* <h2>:computer:Pasta do projeto</h2>
+- [Você pode acessar o projeto por aqui!](https://github.com/rodrigovaleferreira/Horas_de_trabalho.git)
+
+* <h2>:page_with_curl: Programa necessário para alteração do documento PHP</h2>
+* <p>Para trabalhar com o PHP é necessário a instalação do XAMPP para fazer a utilização do apache,  segue o link do site da XAMPP: https://www.apachefriends.org/pt_br/index.html</p>
+
+<h3>:white_check_mark: Após instalar o XAMPP:</h3>
+<p> Após esse processo, você ira localizar onde a pasta do programa foi instalada, dentro dela terá uma pasta chamada "htdocs" e nela será colocada a pasta referente ao código</p>
 
 ![pasta htdocs](http://wpsemcodigo.com.br/wp-content/uploads/2019/09/23-pasta-xampp-htdocs.png)
 
-<p>Depois de criada a pasta voce irá abrir o <b>XAMPP CONTROL PANEL</b> e irá clicar em start na opção do <b>apache</b> </p>
+<p>:white_check_mark: Depois de criada a pasta voce irá abrir o <b>XAMPP CONTROL PANEL</b> e irá clicar em start na opção do <b>apache</b> </p>
 
 ![xampp control panel](https://i.stack.imgur.com/z95JC.png)
 
-<p> Após inicar o servidor, vá até seu navegador e na URL digite: http://localhost/nome_da_pasta_criada/</p>
-<p>Agora todas as alterações feitas pelo visualstudio code irá aparecer no seu navegador sem nenhum problema</p>
+<p> :mag: Após inicar o servidor, vá até seu navegador e na URL digite: http://localhost/nome_da_pasta_criada/ :mag:</p>
+<p>Agora todas as alterações feitas pelo visualstudio code sendo ela da parte de PHP ou não irá aparecer no seu navegador sem nenhum problema</p>
 
-* <h2>Método utilizado para implementar o resultado do PHP no HTML sem necessitar da página dar um refresh:</h2>
 
-<p>Foi necessário fazer a importação do ajax: https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js%22%3E</p>
-<p>Para que assim se consiga manipular os dados gerados no PHP e incluir ele no seu HTML</p>
+* <h2>:bell:Linguagens utilizadas</h2>
+- HTMl/CSS
+- PHP
+- JavaScript
